@@ -18,6 +18,16 @@ namespace eek_2018_oop_3
             Console.WriteLine("Current price will be: {0,10:f2}", currentPrice);
 
 
+            /*
+                Ship
+            */
+
+            Ship Nimitz = new Ship(2015, "123FGH", 10000, 100000, 498, "CVN");
+            Ship Perry = new Ship(1987, "428FGH", 1900, 72000, 240, "DDG");
+            Nimitz.PrintMe();
+            Console.WriteLine();
+            Perry.PrintMe();
+
             Console.Read();
         }
     }
