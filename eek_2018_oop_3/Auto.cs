@@ -34,7 +34,7 @@ namespace eek_2018_oop_3
 
             for (int i = 1; i < age; i++)
             {
-                newPrice *= 0.93; // Auto price will deprecate 7% per year
+                newPrice *= 0.84; // How much auto price will deprecate per year
             }
             return newPrice;
         }
