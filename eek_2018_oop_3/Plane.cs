@@ -43,7 +43,7 @@ namespace eek_2018_oop_3
         public override void PrintMe()
         {
             base.PrintMe();
-            Console.Write(" {0,4:f1} {1,5:f1}", maxHeight, numberOfEngines);
+            Console.Write(" {0,3:f1} {1,8:f1}  ", maxHeight, numberOfEngines);
         }
     }
 }

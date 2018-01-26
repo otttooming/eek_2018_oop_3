@@ -22,7 +22,7 @@ namespace eek_2018_oop_3
         public override void PrintMe()
         {
             base.PrintMe();
-            Console.Write(" {0,3} {1,4}", seats, drive);
+            Console.Write(" {0,3} {1,8}  ", seats, drive);
         }
 
         public virtual double CalculateFuelConsumption() { return 0; }

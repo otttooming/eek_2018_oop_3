@@ -51,7 +51,7 @@ namespace eek_2018_oop_3
         {
             base.PrintMe();
 
-            Console.Write(" {0,3} {1,-10}", displacement, type);
+            Console.Write(" {0,3} {1,-10}  ", displacement, type);
         }
     }
 }
